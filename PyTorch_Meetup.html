@@ -14389,7 +14389,7 @@ The following expression should give the same result as the former:</p>
 <span class="n">t</span> <span class="o">=</span> <span class="n">tqdm</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">50</span><span class="p">),</span> <span class="n">desc</span><span class="o">=</span><span class="s1">&#39;Training Loss&#39;</span><span class="p">,</span> <span class="n">leave</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">t</span><span class="p">:</span>
     <span class="n">z</span> <span class="o">=</span> <span class="n">optimizer</span><span class="o">.</span><span class="n">step</span><span class="p">(</span><span class="n">closure</span><span class="p">)</span>
-    <span class="n">t</span><span class="o">.</span><span class="n">set_description</span><span class="p">(</span><span class="s1">&#39;Training Loss: </span><span class="si">%.2f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">z</span><span class="p">)</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">set_description</span><span class="p">(</span><span class="s1">&#39;Training Loss: </span><span class="si">%.2g</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">z</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14410,10 +14410,10 @@ The following expression should give the same result as the former:</p>
 
  
  
-<div id="bfa5f548-f7ab-47a7-bea6-24a1fc1f7eb0"></div>
+<div id="8405d12b-3f5f-47f7-b515-11bfdd7afada"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#bfa5f548-f7ab-47a7-bea6-24a1fc1f7eb0');
+var element = $('#8405d12b-3f5f-47f7-b515-11bfdd7afada');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "db2d9190c63b45f2ba2c197856880d62", "version_major": 2, "version_minor": 0}
@@ -14901,7 +14901,7 @@ On this stage, no images loaded in RAM. Instead, dataset stores classes ids and 
         <span class="n">optimizer</span><span class="o">.</span><span class="n">zero_grad</span><span class="p">()</span>
         <span class="n">loss_mini_batch</span> <span class="o">+=</span> <span class="n">loss</span><span class="o">.</span><span class="n">data</span>
         <span class="n">count</span> <span class="o">+=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="mf">1.</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
-        <span class="n">t</span><span class="o">.</span><span class="n">set_description</span><span class="p">(</span><span class="s1">&#39;Training Loss: </span><span class="si">%.2f</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">loss_mini_batch</span><span class="o">/</span><span class="n">count</span><span class="p">)</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+        <span class="n">t</span><span class="o">.</span><span class="n">set_description</span><span class="p">(</span><span class="s1">&#39;Training Loss: </span><span class="si">%.2g</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">loss_mini_batch</span><span class="o">/</span><span class="n">count</span><span class="p">)</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14922,10 +14922,10 @@ On this stage, no images loaded in RAM. Instead, dataset stores classes ids and 
 
  
  
-<div id="ebfec60e-c600-4495-9eb9-42413bd4b7c2"></div>
+<div id="6e2a74c2-47b2-417a-ac31-51740c2e821d"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#ebfec60e-c600-4495-9eb9-42413bd4b7c2');
+var element = $('#6e2a74c2-47b2-417a-ac31-51740c2e821d');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "a6ff1a69bffe4f128d48db4b2d801400", "version_major": 2, "version_minor": 0}
@@ -14944,10 +14944,10 @@ var element = $('#ebfec60e-c600-4495-9eb9-42413bd4b7c2');
 
  
  
-<div id="8f7ca54e-0aa8-4b80-a0fd-84ee5c5a7186"></div>
+<div id="682922d6-fbba-447b-9bef-5f9672fbcf5f"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#8f7ca54e-0aa8-4b80-a0fd-84ee5c5a7186');
+var element = $('#682922d6-fbba-447b-9bef-5f9672fbcf5f');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "1f7ef77989514511947d7b750126d2c5", "version_major": 2, "version_minor": 0}
@@ -14966,10 +14966,10 @@ var element = $('#8f7ca54e-0aa8-4b80-a0fd-84ee5c5a7186');
 
  
  
-<div id="fe411621-25ae-4888-9b20-13255f90ff6c"></div>
+<div id="808d5862-b5ee-4cc0-b567-1e2f11d5fc11"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#fe411621-25ae-4888-9b20-13255f90ff6c');
+var element = $('#808d5862-b5ee-4cc0-b567-1e2f11d5fc11');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "b9ce50f261d54133985a11fe09e84054", "version_major": 2, "version_minor": 0}
@@ -14998,7 +14998,7 @@ var element = $('#fe411621-25ae-4888-9b20-13255f90ff6c');
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Speed-up-CUDA-computations">Speed up CUDA computations<a class="anchor-link" href="#Speed-up-CUDA-computations">&#182;</a></h3><p>In order to speed up training of the model, one can save images to the hard drive as cuda-tensors. That will improve speed of training in almost two times. One can use the following script to transfer images:</p>
 <div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
-<span class="kn">import</span> <span class="nn">glob</span>
+<span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">multiprocessing</span> <span class="kn">as</span> <span class="nn">mp</span>
 <span class="kn">import</span> <span class="nn">torch</span>
 <span class="kn">import</span> <span class="nn">torchvision.transforms</span> <span class="kn">as</span> <span class="nn">transforms</span>
@@ -15011,20 +15011,36 @@ var element = $('#fe411621-25ae-4888-9b20-13255f90ff6c');
     <span class="n">transforms</span><span class="o">.</span><span class="n">ToTensor</span><span class="p">(),</span>
     <span class="n">normalize</span><span class="p">])</span>
 
+
 <span class="k">def</span> <span class="nf">convert_jpg2bmp</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
     <span class="n">infname</span><span class="p">,</span> <span class="n">outdir</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-    <span class="n">outname</span> <span class="o">=</span> <span class="n">outdir</span><span class="o">+</span><span class="s1">&#39;/&#39;</span><span class="o">+</span><span class="s1">&#39;/&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">infname</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)[</span><span class="o">-</span><span class="mi">2</span><span class="p">:])</span>
-    <span class="n">outname</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;.jpg&#39;</span><span class="p">,</span> <span class="s1">&#39;.pth&#39;</span><span class="p">)</span>
+    <span class="n">outname</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">infname</span><span class="p">)),</span>
+                           <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">infname</span><span class="p">))</span>
+    <span class="n">outname</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">outdir</span><span class="p">,</span> <span class="n">outname</span><span class="p">)</span>
+    <span class="n">outname</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">outname</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;.pth&#39;</span>
     <span class="n">img</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">infname</span><span class="p">)</span>
     <span class="n">tens</span> <span class="o">=</span> <span class="n">data_transform</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
     <span class="n">tens</span> <span class="o">=</span> <span class="n">tens</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="o">=</span><span class="s1">&#39;cuda&#39;</span><span class="p">)</span>
     <span class="n">torch</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">tens</span><span class="p">,</span> <span class="n">outname</span><span class="p">)</span>
-    <span class="c1">#new_img.save(outname, &#39;bmp&#39;)</span>
 
-<span class="n">lifiles</span> <span class="o">=</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;tictac_dataset/*/*jpg&quot;</span><span class="p">)</span>
-
-<span class="n">pool</span> <span class="o">=</span> <span class="n">mp</span><span class="o">.</span><span class="n">Pool</span><span class="p">(</span><span class="n">processes</span><span class="o">=</span><span class="mi">6</span><span class="p">)</span>
 <span class="n">outdir</span> <span class="o">=</span> <span class="s1">&#39;tictac_cuda&#39;</span>
+
+<span class="c1"># get list of images</span>
+<span class="n">lifiles</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">liclasses</span> <span class="o">=</span>  <span class="p">[</span><span class="n">name</span> <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s2">&quot;tictac_dataset&quot;</span><span class="p">)]</span>
+<span class="k">for</span> <span class="n">cli</span> <span class="ow">in</span> <span class="n">liclasses</span><span class="p">:</span>
+    <span class="n">indir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;tictac_dataset&#39;</span><span class="p">,</span> <span class="n">cli</span><span class="p">)</span>
+    <span class="n">lii</span> <span class="o">=</span> <span class="p">[</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">indir</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span> <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">indir</span><span class="p">)</span> <span class="k">if</span> <span class="n">name</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.jpg&quot;</span><span class="p">)]</span>
+    <span class="n">lifiles</span> <span class="o">=</span> <span class="n">lifiles</span> <span class="o">+</span> <span class="n">lii</span>
+
+<span class="c1"># create directories</span>
+<span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">outdir</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">cli</span> <span class="ow">in</span> <span class="n">liclasses</span><span class="p">:</span>
+    <span class="n">diri</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">outdir</span><span class="p">,</span> <span class="n">cli</span><span class="p">)</span>
+    <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">diri</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+<span class="c1"># transfer images to pickled tensors</span>
+<span class="n">pool</span> <span class="o">=</span> <span class="n">mp</span><span class="o">.</span><span class="n">Pool</span><span class="p">(</span><span class="n">processes</span><span class="o">=</span><span class="mi">6</span><span class="p">)</span>
 <span class="n">liparams</span> <span class="o">=</span> <span class="p">[[</span><span class="n">i</span><span class="p">,</span> <span class="n">outdir</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">lifiles</span><span class="p">]</span>
 <span class="n">pool</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">convert_jpg2bmp</span><span class="p">,</span> <span class="n">liparams</span><span class="p">)</span>
 <span class="n">pool</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
@@ -15040,7 +15056,7 @@ var element = $('#fe411621-25ae-4888-9b20-13255f90ff6c');
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># load dataset</span>
-<span class="n">dataset</span> <span class="o">=</span> <span class="n">torchvision</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">DatasetFolder</span><span class="p">(</span><span class="s1">&#39;tictac_cuda/&#39;</span><span class="p">,</span> <span class="n">loader</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">load</span><span class="p">,</span> <span class="n">extensions</span><span class="o">=</span><span class="s1">&#39;.jpg&#39;</span><span class="p">)</span>
+<span class="n">dataset</span> <span class="o">=</span> <span class="n">torchvision</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">DatasetFolder</span><span class="p">(</span><span class="s1">&#39;tictac_cuda/&#39;</span><span class="p">,</span> <span class="n">loader</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">load</span><span class="p">,</span> <span class="n">extensions</span><span class="o">=</span><span class="s1">&#39;.pth&#39;</span><span class="p">)</span>
 
 <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
 <span class="n">m</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">VALIDATION_SPLIT</span><span class="o">*</span><span class="n">n</span><span class="p">)</span>
@@ -15106,10 +15122,10 @@ var element = $('#fe411621-25ae-4888-9b20-13255f90ff6c');
 
  
  
-<div id="b6753beb-eb89-4445-a7f8-06a53eb7c293"></div>
+<div id="8508a0b9-9caa-49f4-b6b0-1a1bcce87bb0"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#b6753beb-eb89-4445-a7f8-06a53eb7c293');
+var element = $('#8508a0b9-9caa-49f4-b6b0-1a1bcce87bb0');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "412f78e781e64f64b3694cd596fd2bcd", "version_major": 2, "version_minor": 0}
@@ -15128,10 +15144,10 @@ var element = $('#b6753beb-eb89-4445-a7f8-06a53eb7c293');
 
  
  
-<div id="007a9418-926a-4a33-b353-dddf8d47170f"></div>
+<div id="795cc35b-9cb9-4a48-a13a-f6ccb338cb74"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#007a9418-926a-4a33-b353-dddf8d47170f');
+var element = $('#795cc35b-9cb9-4a48-a13a-f6ccb338cb74');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "4340a68f55514488a9ace254a6f13212", "version_major": 2, "version_minor": 0}
@@ -15150,10 +15166,10 @@ var element = $('#007a9418-926a-4a33-b353-dddf8d47170f');
 
  
  
-<div id="fca78826-e593-4e09-8e31-625ba32de379"></div>
+<div id="d57b4733-e5b0-4329-ae11-2eb51501db95"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#fca78826-e593-4e09-8e31-625ba32de379');
+var element = $('#d57b4733-e5b0-4329-ae11-2eb51501db95');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
 {"model_id": "c34d348eb81e4a64a4ba1f0beadea9a4", "version_major": 2, "version_minor": 0}
